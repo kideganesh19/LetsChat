@@ -1,0 +1,162 @@
+
+#login-box{
+    background-color: #660066;
+    width:40vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:80px;
+    color: floralwhite;
+}
+
+input,select{
+    width:100%;
+    font-size: 15pt;
+    padding:8px;
+    margin-bottom:25px;
+    margin-top:5px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+select{
+    font-size: 20pt;
+}
+
+#btnLogin{
+    height: 40px;
+    width:100%;
+    font-size: 14pt;
+    color: red;
+}
+
+.btn {
+	cursor: pointer;
+	padding: 5px 15px;
+	background: #b3c6ff;
+	color: black;
+  font-weight: bold;
+	border: 0;
+	font-size: 17px;
+}
+
+a.btn{
+    text-decoration: none;
+}
+
+#btn-send-chat{
+    width:10%;
+    font-weight: 900;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    background-color: #4db8ff;
+    width: 100%;
+    font-size:25pt;
+    padding:1rem;
+    text-align: center;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#006bb3;
+    padding:10px;
+}
+
+#form-box{
+    font-size: 12pt;
+    padding:25px 0;
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:80px;
+    overflow: hidden;
+}
+
+#chat-main{
+    display:flex;
+}
+#chat-sidebar{
+    padding-top:20px;
+    width:20%;
+    background-color:#008ae6;
+    padding-left:10px;
+    height:500px;
+    overflow-y: scroll;
+}
+
+#users{
+    list-style: none;
+    margin-top:5px;
+}
+#users li{
+    background-color: #b3c6ff;
+    width:80%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    font-style: italic;
+    font-weight: bolder;
+    padding:5px;
+}
+
+
+#room-name{
+    width:90%;
+    background-color:#b3c6ff;
+    text-align: center;
+    font-size: larger;
+    margin-bottom:10px;
+}
+
+#chat-cont{
+    padding-top:10px;
+    width:80%;
+    background-color:#f2f2f2;
+    height:500px;
+    overflow-y: scroll;
+}
+.chat{
+    width:90%;
+    margin: 20px auto;
+    background-color: #d9d9d9;
+    padding:5px 10px;
+}
+
+.sender-name{
+    color:#cc0000;
+}
+.send-time{
+    color:grey;
+    padding-left:5px;
+    font-size:10pt;
+}
+#chat-form-cont{
+    background-color:#0040ff;
+}
+
+#chat-form{
+    display:flex;
+    justify-content: space-between;
+    height:60px;
+    padding:10px;
+}
+
+#inpSendChat{
+    padding:0;
+    margin:0;
+    width:90%;
+}
